@@ -6,8 +6,8 @@ on:
 
 jobs:
  build:
-  runs-on: ubuntu-latest
+  runs-on: windows-latest
   steps:
    - uses: actions/checkout@v2
-   - run: g++ -Wall *.cpp -o main
+   - run: g++  *.cpp -o main
    - run: ./run_test.sh
