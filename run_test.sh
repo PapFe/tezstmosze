@@ -1,4 +1,5 @@
 
+IFS=$'\n'
 
 if test -f out_res.txt
 then
