@@ -3,9 +3,9 @@ Name: Threeunits
 on:push
 
 jobs:
-	build:
-		runs-on: ubuntu-latest
-		steps:
-			- uses: actions/checkout@v2
-			- run: g++ -Wall *.cpp -o main
+ build:
+ runs-on: ubuntu-latest
+ steps:
+ - uses: actions/checkout@v2
+ - run: g++ -Wall *.cpp -o main
 
