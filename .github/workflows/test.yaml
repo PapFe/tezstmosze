@@ -9,7 +9,6 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - uses: actions/checkout@v2
-   - run: git config --global core.autocrlf input
    - run: g++  *.cpp 
    - run: chmod +x ./run_test.sh
    - run: ./run_test.sh
