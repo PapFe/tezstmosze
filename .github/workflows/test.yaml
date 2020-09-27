@@ -3,7 +3,7 @@ Name: Threeunits
 on:push
 
 jobs:
-	buld:
+	build:
 		runs-on: ubuntu-latest
 		steps:
 			- uses: actions/checkout@v2
