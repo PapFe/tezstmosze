@@ -3,7 +3,7 @@
 IFS=$'\n'
 
 for i in 'cat inputs.txt'; do
-	echo "$i" | main;
+	echo"$i NA: "; echo "$i" | main;
 done
 
 
