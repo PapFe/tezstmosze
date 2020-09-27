@@ -1,10 +1,9 @@
 
 IFS=$'\n'
 
-if test -f out_res.txt
-then
-	rm out_res.txt
-fi
+
+rm out_res.txt
+
 
 for i in inputs.txt; 
 do
