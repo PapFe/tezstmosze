@@ -1,4 +1,3 @@
-#!/bin/bash
 
 if test -f out_res.txt then
 	rm out_res.txt
