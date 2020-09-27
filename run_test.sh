@@ -5,13 +5,9 @@ then
 	rm out_res.txt
 fi
 
-for i in units/*.json 
+for i in inputs.txt; 
 do
-	for j in units/*.json
-	do
-		if [ $i != $j ]
-		then
-			main $i $j >> out_res.txt
-		fi
-	done
+ 
+ echo "$i" | main >> out_res.txt
+ 	
 done
