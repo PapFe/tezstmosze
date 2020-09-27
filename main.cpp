@@ -6,12 +6,12 @@
 
 int main(int argc, char* argv[])
 {
-	try 
+	try {
 		//argumentum ellenörzés. Ha valaki megadja az összes argumentumot az indításnál akkor ezek száma 7(a program neve+2*3 paraméter: név,hp,dpr)
 		if (argc < 3) {
 			std::cout << "Please give all of the arguments when you start the programe It will work. Or change the comments in the programe if "
 				<< "you are a pussycat, it works just as well. #the programmer " << "\n\n"; //ha valaki nem adná meg akkor a program nem hal meg.
-			return 1                                  //vicces üzenet ami jelzi a hibát, ha kell a kommentek kiszedésével lehet más futást is indítani
+			return 1;                                  //vicces üzenet ami jelzi a hibát, ha kell a kommentek kiszedésével lehet más futást is indítani
 		}
 
 		/*Ha megvan mind a 7 adat akkor létrejönnek a karakterek és fut a program ahogy kell, a atoi
